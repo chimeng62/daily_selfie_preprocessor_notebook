@@ -10,6 +10,13 @@ Rotation: The head may be tilted or angled differently.
 
 Position: The face may not be perfectly centered in every frame.
 
+## Directory
+
+input: selfie images
+output: eye-aligned selfies 
+input folder: source_selfies 
+output folder: output_selfies
+
 
 The Proposed Pipeline
 Rather than manually aligning each image or using a single "ideal" photo as a reference, this pipeline uses a data-driven approach by aligning all images to a calculated "average" face.
@@ -36,12 +43,19 @@ This is the core of the pipeline. For each individual selfie, a geometric transf
 Step 9: Output
 The output is a new series of images, all with faces that are in the exact same position, scale, and rotation. These normalized images are now ready to be stitched together into a smooth, professional-looking timelapse video.
 
+DONE:
+    share selfies from phone using gallery's auto selfies detector
+TODO: improvement
+    zoom out a bit to also show hair, currently to zoomed in the face
+
+    edit the notebook to add:
+        step 1: read selfies from "1_unsorted_selfies"
+        step 2: find daily duplication and day that i forgot to take a selfie (only want 1 selfie per day)
+            naming format is: IMG_YYYYMNMDD_HHMMSS 
+            e.g IMG_20231104_133736 
+            use the first and last file name as the upper and lower end of the selfie date range
+
+        step 3: show how many in each year and copy to relavant folders inside: 2_sorted_selfies
 
 
-## Directory
-
-input: selfie images
-output: eye-aligned selfies 
-input folder: source_selfies 
-output folder: output_selfies
 
