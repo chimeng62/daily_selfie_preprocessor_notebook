@@ -16,7 +16,7 @@ Transform your collection of daily selfies into a perfectly aligned timelapse vi
 - **Professional Output**: Generate timeline-ready aligned images
 
 ## 🏗️ Project Structure
-
+Create folders if not already exist
 ```
 daily_selfie_preprocessor_notebook/
 ├── 1_unsorted_selfies/           # Place your raw selfies here
@@ -30,8 +30,8 @@ daily_selfie_preprocessor_notebook/
 │   ├── 2023/
 │   ├── 2024/
 │   └── 2025/
-├── test_sorted_selfies/        # Test directory for development
-├── test_output_selfies/        # Test output directory
+├── test_sorted_selfies/        # Test directory for development ONLY
+├── test_output_selfies/        # Test output directory ONLY
 ├── sort_selfies_into_folder.ipynb         # Step 1: Organization
 ├── face_alignment_preprocessor.ipynb      # Step 2: Face alignment
 ├── shape_predictor_68_face_landmarks.dat  # dlib model file
@@ -62,9 +62,6 @@ cd daily_selfie_preprocessor_notebook
    - pandas
    - pathlib
 
-3. **Download the facial landmark model**
-   - Download `shape_predictor_68_face_landmarks.dat` from [dlib's website](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
-   - Extract and place it in the project root directory
 
 ### Usage Workflow
 
