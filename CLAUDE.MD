@@ -45,8 +45,6 @@ The output is a new series of images, all with faces that are in the exact same 
 
 DONE:
     share selfies from phone using gallery's auto selfies detector
-TODO: improvement
-    zoom out a bit to also show hair, currently to zoomed in the face
 
     edit the notebook to add:
         step 1: read selfies from "1_unsorted_selfies"
@@ -56,6 +54,7 @@ TODO: improvement
             use the first and last file name as the upper and lower end of the selfie date range
 
         step 3: show how many in each year and copy to relavant folders inside: 2_sorted_selfies
+    zoom out a bit to also show hair, currently to zoomed in the face
 
 
 
