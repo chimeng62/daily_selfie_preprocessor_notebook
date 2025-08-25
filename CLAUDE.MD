@@ -23,13 +23,17 @@ For each image, a face detection model is used to identify the bounding box of t
 Step 3: Facial Landmark Detection
 Within the detected face, a facial landmark detection model pinpoints key features, such as the corners of the eyes, the tip of the nose, and the corners of the mouth. These landmark coordinates are the most critical data points for the alignment process.
 
-Step 4: Calculate the "Average Face"
+Step 5: Face Detection
+
+Step 6: Facial Landmark Detection
+
+Step 7: Calculate the "Average Face"
 Before alignment, the coordinates of all landmarks from every single photo are collected. The pipeline then computes the average position for each landmark across the entire dataset. This creates a stable, consistent target geometry that is representative of the whole collection.
 
-Step 5: Alignment and Normalization
+Step 8: Alignment and Normalization
 This is the core of the pipeline. For each individual selfie, a geometric transformation (rotation, scaling, and translation) is calculated to align its landmarks to the corresponding average landmark positions. This transformation is then applied to the entire image.
 
-Step 6: Output
+Step 9: Output
 The output is a new series of images, all with faces that are in the exact same position, scale, and rotation. These normalized images are now ready to be stitched together into a smooth, professional-looking timelapse video.
 
 
