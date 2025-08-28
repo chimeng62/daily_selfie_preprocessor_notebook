@@ -141,7 +141,7 @@ cd daily_selfie_preprocessor_notebook
 - **Face Detection**: dlib's HOG + SVM detector (99%+ accuracy on clear selfies)
 - **Landmark Model**: 68-point predictor trained on 300W dataset
 - **Alignment Method**: Similarity transformation using key facial points
-- **Output Format**: 400x400 pixels, standardized for video editing
+- **Output Format**: 1920x1920 pixels,FHD resolution for video editing
 - **Supported Formats**: JPG, JPEG, PNG, BMP
 
 ## 📊 Performance & Scalability
