@@ -1,10 +1,18 @@
-# Daily Selfie Preprocessor & Face Alignment Pipeline
+# Daily Selfie Timelapse Toolkit
 
-A comprehensive toolkit for organizing, processing, and creating smooth timelapse videos from your daily selfie collection. This project combines automated file organization with advanced facial alignment techniques to produce professional-quality timelapses.
+### The Problem
+You have hundreds or thousands of daily selfies, but creating a timelapse is difficult:
+- 😫 **Inconsistent Framing**: Your face is in a different position, angle, and size in every photo.
+- 📁 **Disorganized Files**: Your selfies are scattered across multiple folders with random filenames.
+-  risultato: A shaky, jarring video that looks unprofessional.
 
-## 🎯 Overview
+### The Solution
+This toolkit provides a simple two-step pipeline to automatically fix these issues:
+1.  **Step 1: Organize**: A notebook that sorts all your selfies into clean, year-based folders (`/2022/`, `/2023/`, etc.).
+2.  **Step 2: Align**: A powerful notebook that detects the face in each photo and applies an advanced alignment algorithm. It makes every face perfectly centered, scaled, and rotated.
 
-Transform your collection of daily selfies into a perfectly aligned timelapse video with just a few steps. The pipeline handles everything from organizing scattered photos to precisely aligning faces for smooth, professional-looking results.
+### The Result
+A folder of high-resolution, sequentially-named images (`frame_0001.jpg`, `frame_0002.jpg`...) where your face is perfectly stable. These are ready to be imported as an "Image Sequence" into any video editor (like Adobe Premiere Pro or DaVinci Resolve) to create a smooth, professional-looking timelapse video.
 
 ### ✨ Key Features
 
